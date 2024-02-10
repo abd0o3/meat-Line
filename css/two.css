@@ -20,18 +20,24 @@ body {
 
 .info .txt .logo {
     display: block;
-    margin-bottom: 9px;
+    margin-bottom: 10px;
     font-size: 35px;
     font-family: 'Readex Pro', sans-serif;
-    color: #ff0000;
+    color: #f10000;
 }
 
 .info .txt .des {
     line-height: 1.2;
     font-weight: 500;
-    font-family: 'Lateef', serif;
     font-size: 24px;
     color: #fff;
+}
+
+.free {
+    color: rgb(255, 255, 255);
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 22px;
 }
 
 /* buttons */
@@ -74,12 +80,14 @@ a img {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    padding: 80px 0 10px 17px;
+    padding: 80px 10px 10px 17px;
 }
 
 .icons a {
     margin: 0 20px;
     padding: 9px 9px 6px 9px;
     border-radius: 15%;
-    border: solid 1px #fff;
+    border: solid px #fff;
+    
 }
+
